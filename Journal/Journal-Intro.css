@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
+
+body {
+    background: linear-gradient(to right, #f2994a, #f2c94c);
+}
+
+nav
+{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+nav > img
+{
+    width: 30px;
+    padding: 0px 10px;
+
+    cursor: pointer;
+}
+
+h1 {
+    font-family: 'Archivo Black', sans-serif;
+    color: white;
+    font-size: 175px;
+
+    position: absolute;
+    left: 10vw; top: 11vh;
+
+    z-index: -1;
+}
+
+h3
+{
+    font-family: 'Cedarville Cursive', cursive;
+    color: white;
+    font-size: 40px;
+
+    position: absolute;
+    left: 11vw; top: 51vh;
+
+    z-index: 1;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+
+.profile {
+    width: 45vw;
+}
