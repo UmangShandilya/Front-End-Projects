@@ -72,6 +72,11 @@ h2 {
   border-radius: 30px;
 }
 
+section
+{
+  padding: 10px;
+}
+
 h3 {
   font-size: 32px;
 }
