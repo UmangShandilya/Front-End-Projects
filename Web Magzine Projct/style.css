@@ -1,0 +1,95 @@
+/*Font Imports*/
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Catamaran:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+/*Universal*/
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/*Page Heading*/
+.page_header {
+  background-color: #edf2f4;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+}
+
+h1 {
+  font-family: "Pacifico", cursive;
+  font-size: 56px;
+  text-align: center;
+}
+
+/*Page Navigation Bar*/
+nav {
+  background-color: #d90429;
+  height: 32px;
+  margin-top: 10px;
+  text-align: center;
+  padding-top: 5px;
+}
+
+.navigation_link {
+  color: #edf2f4;
+  text-decoration: none;
+  margin: 50px;
+  font-family: "Pacifico", cursive;
+}
+
+.navigation_link:hover {
+  font-weight: bold;
+  color: #2b2d42;
+}
+
+article,
+aside,
+footer {
+  font-family: "Catamaran", sans-serif;
+  font-size: 16px;
+}
+
+/*Blog Section*/
+article {
+  background-color: #edf2f4;
+  padding-top: 145px;
+}
+h2 {
+  font-size: 48px;
+  padding: 10px 10px 0px 10px;
+}
+
+#blog_author {
+  font-style: italic;
+  padding: 5px 5px 10px 5px;
+  height: 35px;
+  display: flex;
+  gap: 10px;
+}
+
+#profile_picture {
+  border-radius: 30px;
+}
+
+h3 {
+  font-size: 32px;
+}
+
+#related_blog_list {
+  list-style-type: none;
+}
+
+/*Footer*/
+footer {
+  background-color: #2b2d42;
+  height: 48px;
+}
+
+#copyright {
+  font-size: 12px;
+  color: #edf2f4;
+  text-align: center;
+
+  padding: 14px;
+}
