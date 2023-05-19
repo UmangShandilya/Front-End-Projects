@@ -55,9 +55,9 @@ article {
   background-color: #edf2f4;
   padding-top: 145px;
 }
+
 h2 {
   font-size: 48px;
-  padding: 10px 10px 0px 10px;
 }
 
 #blog_author {
@@ -72,17 +72,52 @@ h2 {
   border-radius: 30px;
 }
 
-section
-{
-  padding: 10px;
+#blog_post_header {
+  margin: 10px;
+}
+
+section {
+  margin: 10px 10px 0px 10px;
 }
 
 h3 {
   font-size: 32px;
 }
 
+.blog_list {
+  margin: 5px 15px;
+}
+
+/* Related Blogs Section */
+aside {
+  border-bottom: 10px #8d99ae solid;
+  background-color: #edf2f4;
+}
+
+#related_blog_title {
+  padding: 10px 10px 0px 10px;
+  font-size: 40px;
+  font-family: "Pacifico", cursive;
+}
+
 #related_blog_list {
   list-style-type: none;
+}
+
+.related_blog_list_item {
+  display: flex;
+  padding: 10px;
+  gap: 5px;
+}
+
+.related_blog_list_item a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #2b2d42;
+}
+
+.related_blog_list_item a:hover {
+  font-size: 20px;
 }
 
 /*Footer*/
