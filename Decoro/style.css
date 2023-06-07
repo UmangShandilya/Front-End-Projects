@@ -1,0 +1,283 @@
+/* Font Imports */
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Infant:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
+
+/* Global Style Values */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: "Cormorant Infant", serif;
+  background-color: #d8c9a82f;
+}
+
+.grid-3-cols {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 8rem;
+}
+
+/* Header Style Starts */
+header {
+  height: 60rem;
+  background-color: #25064c;
+  position: relative;
+
+  margin-bottom: 48px;
+}
+
+#navigationBar {
+  height: 4rem;
+  width: 100%;
+  background-color: #25064c;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  position: fixed;
+  top: 0;
+  z-index: 6;
+}
+
+#brandLogo {
+  height: 3rem;
+  width: 12rem;
+
+  margin-left: 1rem;
+}
+
+.navLinks {
+  text-decoration: none;
+  color: #d8c9a8;
+  font-weight: bolder;
+  font-size: 2rem;
+
+  padding: 0rem 2rem;
+}
+
+#heroContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+
+#heroContainer h1 {
+  z-index: 1;
+
+  color: #d8c9a8;
+  font-size: 8rem;
+  font-weight: 400;
+  line-height: 9rem;
+
+  margin-left: 3rem;
+}
+
+#heroContainer img {
+  z-index: 1;
+
+  width: 76rem;
+  height: 60rem;
+  object-fit: fill;
+}
+
+#exploreButton {
+  position: absolute;
+  top: 48rem;
+  left: 25rem;
+
+  z-index: 3;
+
+  width: 20rem;
+  height: 5rem;
+
+  background-color: #d8c9a8;
+  border: 0.5rem solid #bead9a;
+
+  font-size: 2.4rem;
+  color: #25064c;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+#exploreButton:hover {
+  cursor: pointer;
+
+  transform: scale(1.2, 1.2);
+}
+
+.icon {
+  height: 2.5rem;
+  width: 2.5rem;
+}
+/* Header Style Ends */
+
+/* Section Style Starts */
+.container {
+  width: 96rem;
+  margin: 6rem auto;
+}
+
+section {
+  margin-bottom: 8rem;
+}
+
+.featureHeading {
+  margin-bottom: 5rem;
+
+  font-weight: 500;
+  font-size: 6rem;
+}
+
+/* FEATURES */
+.features {
+  background-color: #bead9a44;
+  padding: 2rem;
+}
+
+.features-icon {
+  stroke: #25064c;
+
+  width: 4rem;
+  height: 4rem;
+}
+
+.features-title {
+  margin-bottom: 1rem;
+  font-size: 2.4rem;
+}
+
+.features-text {
+  font-size: 2rem;
+}
+
+/* TESTIMONIAL SECTION */
+
+.grid-2-cols {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 2rem;
+
+  background-color: #25064c;
+  color: #d8c9a8;
+}
+
+.customerImage {
+  height: 50rem;
+  width: 50rem;
+  object-fit: cover;
+}
+
+.testimonial-box {
+  align-self: center;
+}
+
+.testimonial-box h2 {
+  font-size: 6rem;
+  font-weight: 500;
+}
+
+.testimonial-text {
+  font-style: italic;
+  font-size: 2rem;
+}
+
+.testimonial-author {
+  margin-top: 1.5rem;
+  font-size: 1.6rem;
+}
+
+/* Chair Catalog Starts */
+
+h3 {
+  margin-bottom: 2.5rem;
+
+  font-size: 2.8rem;
+  font-weight: 500;
+}
+
+.chair {
+  background-color: #d8c9a82f;
+  box-shadow: 0rem 2rem 3rem 0rem #a4918d88;
+}
+
+.chair img {
+  width: 26.6rem;
+  height: 26rem;
+  object-fit: cover;
+}
+
+.chair-box {
+  border-top: #d8c9a8 5px solid;
+  border-bottom: #d8c9a8 5px solid;
+  padding: 20px;
+}
+
+.chair-details {
+  list-style: none;
+  margin-bottom: 24px;
+}
+
+.chair-details li {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 24px;
+
+  font-size: 2rem;
+}
+
+.chair-details li:last-child {
+  margin-bottom: 0;
+}
+
+.chair-icon {
+  width: 25px;
+  height: 25px;
+
+  stroke: #25064c;
+}
+
+.chair-price {
+  display: flex;
+  justify-content: space-between;
+}
+
+.chair-price strong {
+  font-size: 22px;
+  font-weight: 800;
+}
+.cartButton {
+  width: 30px;
+  height: 30px;
+
+  padding: 10px;
+  background-color: #25064c;
+
+  border-radius: 30px;
+}
+
+.cartIcon {
+  stroke: #d8c9a8;
+}
+/* Chair Catalog Ends */
+
+/* Footer Starts */
+footer {
+  background-color: #25064c;
+
+  color: #d8c9a8;
+  text-align: center;
+  padding: 2rem;
+
+  font-size: 2rem;
+}
+/* Footer Ends */
